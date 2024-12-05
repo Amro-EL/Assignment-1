@@ -1,5 +1,5 @@
 class Task:
     def __init__(self, name, priority, status):
      self.name= name
-     self.priority
+     
      

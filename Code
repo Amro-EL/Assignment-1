@@ -1,10 +1,2 @@
-def main():
-task_manager = Taskmanager("1") 
-print("Hello! Welcome to our Task Management.")
-option=  ”null”
-while option == null:
-    print(“\n1. Add Task”)
-    print(“2. Complete Task”)
-    print(“3. Show Tasks”)
-    
+class Task:
           

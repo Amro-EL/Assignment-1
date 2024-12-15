@@ -62,5 +62,7 @@ print("Welcome to your Task Management System!")
 print("You can add your tasks, mark them as complete and view your task list.")
 while True:
         print("\noOptions:")
+        print("1. Add Task")
+        print("2. Mark Task as Complete")
 
       

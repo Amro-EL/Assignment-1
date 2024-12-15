@@ -15,4 +15,4 @@ class Task:
         self.tasks[task_index].mark_complete()
      def get_tasks(self):
        self.status = 'Completed'
-       def __str__(self):
+       def __str__(self)

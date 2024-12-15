@@ -1,4 +1,8 @@
 class Task:
-   def __init__(self, name, priority):
-    self.name = name
-      
+    def __init__(self, name, priority):
+      self.name = name
+      self.priority = priority
+      self.status = 'Pending'
+    def mark_complete(self):
+class TaskManager:
+   

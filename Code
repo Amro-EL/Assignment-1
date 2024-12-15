@@ -8,5 +8,6 @@ class Task:
          def __init__(self):
            self.tasks = []
         def add_task(self, name, priority):
-         
+         new_task = Task(name, priority)
+     
       

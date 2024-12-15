@@ -69,5 +69,7 @@ while True:
         choice = input("Select an option (1-4): ")
         if choice == '1':
             name = input("Enter the task name: ")
+            priority = input("Enter the priority (High, Medium, Low): ")
+            task_manager.add_task(name, priority)
 
       

@@ -6,4 +6,7 @@ class Task:
     def mark_complete(self):
         class TaskManager:
          def __init__(self):
+           self.tasks = []
+        def add_task(self, name, priority):
+         
       

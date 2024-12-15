@@ -9,7 +9,9 @@ class Task:
         self.tasks = []
         def add_task(self, name, priority):
          new_task = Task(name, priority)
-     self.tasks.appen(new_task)
+     self.tasks.appen("new_task")
      def mark_task_complete(self, task_index):
-       
+      if 0 <= task_index < len(self.tasks):
+        self.tasks[task_index].mark_complete()
+
 

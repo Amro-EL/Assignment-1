@@ -72,5 +72,8 @@ while True:
             priority = input("Enter the priority (High, Medium, Low): ")
             task_manager.add_task(name, priority)
             print("Task added successfully.")
+        elif choice == '2':
+          display_tasks(task_manager.get_tasks())
+          task_index = int(input("Enter the task number to mark as complete: ")) - 1
 
       

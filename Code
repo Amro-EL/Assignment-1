@@ -1,24 +1,55 @@
 class Task:
+    """
+    Represents my task with a name, priority level, and status.
+    """
     def __init__(self, name, priority):
+      """
+        makes the new task adding with a name, priority, and status set to 'Pending'.
+
+      """
       self.name = name
       self.priority = priority
       self.status = 'Pending'
     def mark_complete(self):
       from Task import TaskManager 
       class TaskManager:
+         """
+    Manages a list of tasks.
+      """
          def __init__(self):
-           self.tasks = []
+          """
+        assigns the task manager i made earlier with an empty task list.
+        """
+         self.tasks = []
          def add_task(self, name, priority):
+           """
+        Adds a new task to whoever use the task list.
+        """
            new_task = Task(name, priority)
            self.tasks.appened("new_task")
          def mark_task_complete(self, task_index):
+          """
+        Marks a task as complete based on the  index it has in the task list.
+        """
           if 0 <= task_index < len(self.tasks):
            self.tasks[task_index].mark_complete()
          def get_tasks(self):
+           """
+        Returns the list of tasks I assigned.
+         :return: A list of task objects.
+        """     
            self.status = 'Completed'
          def __str__(self)
-           from task_manager import TaskManager
+            """
+        Returns a string representing the task.
+        """
+            from task_manager import TaskManager
          def display_tasks(tasks):
+           """
+    Displays the list of tasks I added with their details.
+    """
+           
+
           
 
       

@@ -4,16 +4,21 @@ class Task:
       self.priority = priority
       self.status = 'Pending'
     def mark_complete(self):
-        class TaskManager:
+      from Task import TaskManager 
+      class TaskManager:
          def __init__(self):
            self.tasks = []
-        def add_task(self, name, priority):
-         new_task = Task(name, priority)
-        self.tasks.appen("new_task")
-        def mark_task_complete(self, task_index):
+         def add_task(self, name, priority):
+           new_task = Task(name, priority)
+           self.tasks.appened("new_task")
+         def mark_task_complete(self, task_index):
           if 0 <= task_index < len(self.tasks):
            self.tasks[task_index].mark_complete()
-          def get_tasks(self):
+         def get_tasks(self):
            self.status = 'Completed'
-          def __str__(self)
+         def __str__(self)
+           from task_manager import TaskManager
+         def display_tasks(tasks):
+          
+
       

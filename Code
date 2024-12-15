@@ -75,5 +75,8 @@ while True:
         elif choice == '2':
           display_tasks(task_manager.get_tasks())
           task_index = int(input("Enter the task number to mark as complete: ")) - 1
+          task_manager.mark_task_complete(task_index)
+          print("Task marked as complete.")
+        elif choice == '3':
 
       

@@ -71,5 +71,6 @@ while True:
             name = input("Enter the task name: ")
             priority = input("Enter the priority (High, Medium, Low): ")
             task_manager.add_task(name, priority)
+            print("Task added successfully.")
 
       

@@ -1,0 +1,7 @@
+class Task:
+    def __init__(self, name, priority, status):
+     self.name= name
+     self.priority= priority
+     self.status= enter status
+    def-mark-as-completedef(self):
+        

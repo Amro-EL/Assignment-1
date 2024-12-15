@@ -11,5 +11,9 @@ class Task:
          new_task = Task(name, priority)
         self.tasks.appen("new_task")
         def mark_task_complete(self, task_index):
-      
+          if 0 <= task_index < len(self.tasks):
+           self.tasks[task_index].mark_complete()
+          def get_tasks(self):
+           self.status = 'Completed'
+          def __str__(self)
       
